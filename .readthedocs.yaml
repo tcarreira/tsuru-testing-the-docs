@@ -6,6 +6,6 @@ build:
   tools:
     python: "3.11"
   commands:
-    - git clone --branch gh-pages https://github.com/tsuru/tsuru.git
+    - git clone --branch gh-pages https://github.com/tcarreira/tsuru.git
     - mkdir -p $READTHEDOCS_OUTPUT/html
     - cp -r tsuru/* $READTHEDOCS_OUTPUT/html/
